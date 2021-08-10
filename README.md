@@ -27,3 +27,7 @@ This is an application that will help users list and preview news articles from 
 ## Contact
 
  Email: felixkodhanjo@gmail.com
+ 
+## licence
+
+https://github.com/kodhanjo/news-API/blob/main/LICENSE
