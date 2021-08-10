@@ -14,13 +14,11 @@ def index():
     '''
     business_sources = get_sources('business')
     entertainment_sources = get_sources('entertainment')
-    technology_sources = get_sources('technology')
     sports_sources = get_sources('sports')
-    health_sources = get_sources('health')
    
-    title = "News"
+    title = "Get News"
 
-    return render_template('index.html', title=title, business_sources=business_sources, sports_sources=sports_sources, health_sources=health_sources, technology_sources=technology_sources, entertainment_sources=entertainment_sources)
+    return render_template('index.html', title=title, sports_sources=sports_sources,business_sources=business_sources,entertainment_sources=entertainment_sources)
 
 
 
