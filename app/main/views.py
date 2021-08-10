@@ -1,8 +1,8 @@
 from flask import render_template
 from flask import render_template,request,redirect,url_for
 from . import main
-from .request import get_sources, get_articles
-from .models import Sources, Articles
+from ..request import get_sources, get_articles
+from ..models import Sources, Articles
 
 
 # Views
